@@ -1,0 +1,17 @@
+ Real-world objects contain data and behivor.
++- A software object's state is stored in fields.
++- A software object's behavior is exposed through method.
++- Hiding internal data from the outside world, and accessing it only through publicly exposed methods is known as data encapsulation.
++- A blueprint for a software object is called a class.
++- Common behavior can be defined in a superclass and inherited into a subclass using the extends keyword.
++- A collection of methods with no implementation is called an interfaces.
++- A namespace that organizes classes and interfaces by functionality is called a packages.
++- The term API stands for Application Program Interface.
+
+
+ Assume that you are sitting in a evergreen forest, create a class for all the entities which you observe.
++- For each new class that you've created above, create an interface that defines its behavior, then require your class to implement it. Omit one or two methods and try compiling. What does the error look like?
+
+
+
+tree,animals,birds,etc,..
